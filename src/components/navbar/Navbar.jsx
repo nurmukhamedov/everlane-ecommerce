@@ -1,6 +1,9 @@
+import AjaxCart from "../ajax-cart/AjaxCart"
 const Navbar = () => {
     return (
-        <div>Navbar</div>
+        <div>
+            <AjaxCart />
+        </div>
     )
 }
 

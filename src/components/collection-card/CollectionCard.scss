@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.collectionCard {
+    max-width: 330px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 100%;
+        height: 392px;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        padding: 18px 0;
+        font-size: 12px;
+        color: $black;
+        flex-grow: 2;
+
+        h5 {
+            font-weight: 400;
+        }
+
+        span {
+            font-weight: 500;
+        }
+    }
+
+    button {
+        background-color: $black;
+        color: $white;
+        border: 1px solid transparent;
+        padding: 10px 0;
+        width: 100%;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: $white;
+            color: $black;
+            border-color: $black;
+        }
+    }
+}

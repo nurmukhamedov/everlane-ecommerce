@@ -1,0 +1,12 @@
+.collection {
+    padding: 30px 0;
+    display: flex;
+    column-gap: 16px;
+
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 24px 20px;
+        width: 100%;
+    }
+}
